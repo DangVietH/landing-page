@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: rgb(38, 38, 38);
+}
+
+.header {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 67%;
+}
+
+.header, .footer {
+    padding: 2%;
+    background-color: #000000;
+}
+
+a:link, a:visited {
+    color: white
+}
+
+a:hover {
+    color: rgb(200, 200, 200);
+}
+
+.about {
+    height: auto;
+    padding: 10%
+}
+
+.about h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.engrish {
+    background-color: rgb(50, 50, 50);
+    padding: 5%
+}
+
+.engrish-section {
+    display: flex;
+    gap: 2%;
+    margin: 2%;
+}
+
+.engrish-tab {
+    flex: 1;
+    width: 60px;
+    height: auto;
+    margin: 10px;
+}
+
+.engrish-tab img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.contact {
+    padding: 10%;
+}
+
+.contact-container img  {
+    width: 90px;
+    height: 90px;
+}
